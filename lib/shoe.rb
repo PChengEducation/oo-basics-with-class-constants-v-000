@@ -16,6 +16,9 @@ BRANDS = []
 def brand=(brand)
   @brand = brand
   BRANDS << brand
+end
+
+def size
   @size = 3
 end
 end
